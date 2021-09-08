@@ -1,6 +1,6 @@
 {
   "name": "biduul-goodnight",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Biduul styles for nicer look.",
   "style": "biduul-goodnight.css",
   "scripts": {
