@@ -1,0 +1,19 @@
+{
+  "name": "biduul-goodnight",
+  "version": "0.0.0",
+  "description": "Biduul styles for nicer look.",
+  "style": "biduul-goodnight.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finom/biduul-goodnight.git"
+  },
+  "author": "",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/finom/biduul-goodnight/issues"
+  },
+  "homepage": "https://github.com/finom/biduul-goodnight#readme"
+}

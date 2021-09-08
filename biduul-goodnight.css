@@ -1,0 +1,16 @@
+:root {
+    --biduul-chart-background: #010025;
+    --biduul-chart-text-fill: #67bcff;
+    --biduul-chart-axis-line-stroke: #3F51B5;
+    --biduul-chart-gridlines-stroke: #001242;
+    --biduul-chart-last-price-line-color: #00f;
+    --biduul-chart-crosshair-color: #3F51B5;
+
+    --biduul-chart-plot-up-body-fill: #00a7ff;
+    --biduul-chart-plot-up-body-stroke: #0098ff;
+    --biduul-chart-plot-up-wick-stroke: #00aeff;
+    --biduul-chart-plot-down-body-fill: #003eff;
+    --biduul-chart-plot-down-body-stroke: #0022ff;
+    --biduul-chart-plot-down-wick-stroke: #0046ff;
+}
+  
