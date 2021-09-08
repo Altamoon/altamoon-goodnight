@@ -4,7 +4,9 @@
   "description": "Biduul styles for nicer look.",
   "style": "biduul-goodnight.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "patch": "npm version patch && npm publish && git push && git push --tags",
+    "minor": "npm version minor && npm publish && git push && git push --tags"
   },
   "repository": {
     "type": "git",
