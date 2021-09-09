@@ -13,4 +13,25 @@
     --biduul-chart-plot-down-body-stroke: #0022ff;
     --biduul-chart-plot-down-wick-stroke: #0046ff;
 }
+
+/* update buy/sell colors for trading market */
+[data-widget-id="trading"] [data-trading-type="MARKET"] .btn-success, [data-widget-id="trading"] [data-trading-type="STOP_MARKET"] .btn-success {
+    background-color: var(--bs-info);
+    border-color: var(--bs-info);
+}
+
+[data-widget-id="trading"] [data-trading-type="MARKET"] .btn-sell, [data-widget-id="trading"] [data-trading-type="STOP_MARKET"] .btn-sell {
+    background: var(--bs-danger);
+    border-color: var(--bs-danger);
+}
+
+[data-widget-id="trading"] :is([data-trading-type="MARKET"],  [data-trading-type="STOP_MARKET"]) {
+    --biduul-buy-color: var(--bs-info);
+    --biduul-sell-color: var(--bs-danger);
+}
+
+/* decrease row size at positions & orders tables */
+[data-widget-id="positionAndOrders"] .table > :not(caption) :is(th, td, button) {
+    padding: 0.1rem 0.5rem;
+}
   
