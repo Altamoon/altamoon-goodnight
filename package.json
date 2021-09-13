@@ -6,16 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "patch": "npm version patch && npm publish && git push && git push --tags",
-    "minor": "npm version minor && npm publish && git push && git push --tags"
+    "minor": "npm version minor && npm publish && git push && git push --tags",
+    "start": "http-server --port 8085 -c-1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/finom/biduul-goodnight.git"
+    "url": "git+https://github.com/Letiliel/biduul-goodnight.git"
   },
   "author": "",
   "license": "AGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/finom/biduul-goodnight/issues"
+    "url": "https://github.com/Letiliel/biduul-goodnight/issues"
   },
-  "homepage": "https://github.com/finom/biduul-goodnight#readme"
+  "homepage": "https://github.com/Letiliel/biduul-goodnight#readme",
+  "dependencies": {
+    "http-server": "^13.0.1"
+  }
 }
