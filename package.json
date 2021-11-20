@@ -1,8 +1,8 @@
 {
-  "name": "biduul-goodnight",
+  "name": "altamoon-goodnight",
   "version": "0.0.4",
-  "description": "Biduul styles for nicer look.",
-  "style": "biduul-goodnight.css",
+  "description": "Altamoon styles for nicer look.",
+  "style": "altamoon-goodnight.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "patch": "npm version patch && npm publish && git push && git push --tags",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Letiliel/biduul-goodnight.git"
+    "url": "git+https://github.com/Altamoon/altamoon-goodnight.git"
   },
   "author": {
     "name": "Letiliel",
@@ -27,9 +27,9 @@
   ],
   "license": "AGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/Letiliel/biduul-goodnight/issues"
+    "url": "https://github.com/Altamoon/altamoon-goodnight/issues"
   },
-  "homepage": "https://github.com/Letiliel/biduul-goodnight#readme",
+  "homepage": "https://github.com/Altamoon/altamoon-goodnight#readme",
   "dependencies": {
     "http-server": "^13.0.1"
   }

@@ -1,17 +1,17 @@
 :root {
-    --biduul-chart-background: #010025;
-    --biduul-chart-text-fill: #67bcff;
-    --biduul-chart-axis-line-stroke: #3F51B5;
-    --biduul-chart-gridlines-stroke: #001242;
-    --biduul-chart-last-price-line-color: #00f;
-    --biduul-chart-crosshair-color: #3F51B5;
+    --altamoon-chart-background: #010025;
+    --altamoon-chart-text-fill: #67bcff;
+    --altamoon-chart-axis-line-stroke: #3F51B5;
+    --altamoon-chart-gridlines-stroke: #001242;
+    --altamoon-chart-last-price-line-color: #00f;
+    --altamoon-chart-crosshair-color: #3F51B5;
 
-    --biduul-chart-plot-up-body-fill: #00a7ff;
-    --biduul-chart-plot-up-body-stroke: #0098ff;
-    --biduul-chart-plot-up-wick-stroke: #00aeff;
-    --biduul-chart-plot-down-body-fill: #003eff;
-    --biduul-chart-plot-down-body-stroke: #0022ff;
-    --biduul-chart-plot-down-wick-stroke: #0046ff;
+    --altamoon-chart-plot-up-body-fill: #00a7ff;
+    --altamoon-chart-plot-up-body-stroke: #0098ff;
+    --altamoon-chart-plot-up-wick-stroke: #00aeff;
+    --altamoon-chart-plot-down-body-fill: #003eff;
+    --altamoon-chart-plot-down-body-stroke: #0022ff;
+    --altamoon-chart-plot-down-wick-stroke: #0046ff;
 }
 
 /* update buy/sell colors for trading market */
@@ -26,8 +26,8 @@
 }
 
 [data-widget-id="trading"] :is([data-trading-type="MARKET"],  [data-trading-type="STOP_MARKET"]) {
-    --biduul-buy-color: var(--bs-info);
-    --biduul-sell-color: var(--bs-danger);
+    --altamoon-buy-color: var(--bs-info);
+    --altamoon-sell-color: var(--bs-danger);
 }
 
 /* decrease row size at positions & orders tables */
