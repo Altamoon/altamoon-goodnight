@@ -1,6 +1,6 @@
 {
   "name": "altamoon-goodnight",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Altamoon styles for nicer look.",
   "style": "altamoon-goodnight.css",
   "scripts": {
