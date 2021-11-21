@@ -1,7 +1,7 @@
 {
   "name": "altamoon-goodnight",
   "version": "0.0.5",
-  "description": "Altamoon styles for nicer look.",
+  "description": "Altamoon's founder's personal theme.",
   "style": "altamoon-goodnight.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
